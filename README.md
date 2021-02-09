@@ -5,7 +5,7 @@ Ansible es una plataforma de automatización de software libre que facilita el d
 
 ## ¿Cómo instalar Ansible?
 Para instalar Podman Compose requerimos tener el gestor de paquetes **pip** de **Python**.
-> sudo pip3 install ansible
+> pip3 install --user ansible
 
 Para verificar su correcta instalación se puede correr el siguiente comando, y así obtener la versión instalada.
 > ansible -v
