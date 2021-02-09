@@ -1,0 +1,11 @@
+---
+- name: download vagrant
+  get_url:
+    url: https://releases.hashicorp.com/vagrant/2.2.14/vagrant_2.2.14_linux_amd64.zip
+    dest: /tmp/vagrant_2.2.14_linux_amd64.zip
+
+- name: install vagrant
+  unarchive:
+    src: /tmp/vagrant_2.2.14_linux_amd64.zip
+    dest: /usr/bin/
+    remote_src: yes

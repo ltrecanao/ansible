@@ -1,0 +1,3 @@
+---
+- name: delete temp files
+  shell: rm /tmp/VirtualBox-6.1.18-142142-Linux_amd64.run

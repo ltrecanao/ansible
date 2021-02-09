@@ -1,0 +1,15 @@
+---
+- name: add brave's repository
+  yum_repository:
+    name: brave-browser
+    description: Brave Browser
+    baseurl: https://brave-browser-rpm-release.s3.brave.com/x86_64/
+- name: add brave's key repository
+  rpm_key:
+    state: present
+    key: https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
+- name: install brave
+  yum:
+    name: brave-browser
+    state: present
+  notify: uninstall firefox
