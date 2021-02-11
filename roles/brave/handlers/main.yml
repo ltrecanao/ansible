@@ -1,5 +1,0 @@
----
-- name: uninstall firefox
-  yum:
-    name: firefox
-    state: absent
