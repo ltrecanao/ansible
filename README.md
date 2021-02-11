@@ -5,11 +5,11 @@ Ansible es una plataforma de automatización de software libre que facilita el d
 
 ## ¿Cómo instalar Ansible?
 Para instalar Podman Compose requerimos tener el gestor de paquetes **pip** de **Python**.
-> pip3 install --user ansible
+> pip install --user ansible
 
 Para verificar su correcta instalación se puede correr el siguiente comando, y así obtener la versión instalada.
 > ansible -v
 
 ## ¿Cómo utilizar los roles?
-Para utilizar los roles se debe crear un archivo **yaml** al nivel de la carpeta **roles** en donde se especifique que ejecutar. En cada **role** se encuentra detallado lo que debe incluir el archivo **yaml**. Una vez creado se ejecuta la siguiente linea.
+Para utilizar los roles se debe crear un archivo **yml** al nivel de la carpeta **roles** en donde se especifique que ejecutar. En cada **role** se encuentra detallado lo que debe incluir el archivo **yml**. Una vez creado se ejecuta la siguiente linea.
 > ansible-playbook playbook.yml
