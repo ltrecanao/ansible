@@ -12,4 +12,4 @@ Para verificar su correcta instalación se puede correr el siguiente comando, y 
 
 ## ¿Cómo utilizar los roles?
 Para utilizar los roles se debe crear un archivo **yaml** al nivel de la carpeta **roles** en donde se especifique que ejecutar. En cada **role** se encuentra detallado lo que debe incluir el archivo **yaml**. Una vez creado se ejecuta la siguiente linea.
-> ansible-playbook playbook.yaml
+> ansible-playbook playbook.yml
