@@ -6,7 +6,7 @@ Este rol se encargará de instalar el motor de contenedores Podman y Podman Comp
 Requerimientos
 --------------
 
-Al tratarse de paquetes RPM es necesario ejecutarlo sobre RHEL 8 o alguna distribución GNU/Linux derivada del mismo.
+- Gestor de paquetes Pip
 
 Ejemplo de Playbook
 -------------------

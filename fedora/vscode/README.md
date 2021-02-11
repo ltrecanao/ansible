@@ -6,7 +6,7 @@ Este rol se encargará de instalar el editor de código Visual Studio Code.
 Requerimientos
 --------------
 
-Al tratarse de paquetes RPM es necesario ejecutarlo sobre RHEL 8 o alguna distribución GNU/Linux derivada del mismo.
+- Sin requerimientos
 
 Ejemplo de Playbook
 -------------------

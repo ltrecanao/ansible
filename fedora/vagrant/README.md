@@ -6,7 +6,7 @@ Este rol se encargará de instalar la herramienta de creación y configuración 
 Requerimientos
 --------------
 
-Al tratarse de un binario puede instalarse en cualquier distribución GNU/Linux.
+- Sin requerimientos
 
 Ejemplo de Playbook
 -------------------

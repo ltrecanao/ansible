@@ -8,3 +8,8 @@
   script:
     cmd: /tmp/get-docker.sh
     notify: add user to docker group
+
+- name: install docker compose
+  pip:
+    name: docker-compose
+    state: present
