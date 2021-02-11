@@ -6,7 +6,7 @@ Este rol se encargará de instalar el virtualizador VirtualBox.
 Requerimientos
 --------------
 
-- Sin requerimientos
+- DKMS framework
 
 Ejemplo de Playbook
 -------------------
@@ -23,4 +23,3 @@ Licencia
 --------
 
 GNU General Public License v3.0
-
