@@ -23,7 +23,6 @@
     - gcc
     - glibc-headers
     - glibc-devel
-    - dkms
 
 - name: install virtualbox
   yum:
