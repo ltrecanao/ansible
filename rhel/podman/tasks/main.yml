@@ -1,0 +1,10 @@
+---
+- name: install podman
+  yum:
+    name: podman
+    state: present
+
+- name: install podman compose
+  pip:
+    name: https://github.com/containers/podman-compose/archive/devel.tar.gz
+    state: present

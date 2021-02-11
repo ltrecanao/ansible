@@ -1,0 +1,10 @@
+---
+- name: download docker script
+  get_url:
+    url: https://get.docker.com/
+    dest: /tmp/get-docker.sh
+
+- name: install script
+  script:
+    cmd: /tmp/get-docker.sh
+    notify: add user to docker group

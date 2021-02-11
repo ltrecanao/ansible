@@ -1,0 +1,30 @@
+---
+- name: download virtualbox
+  get_url:
+    url: https://download.virtualbox.org/virtualbox/rpm/el/virtualbox.repo
+    dest: /etc/yum.repos.d/virtualbox.repo
+
+- name: import oracle public key
+  rpm_key:
+    state: present
+    key: https://www.virtualbox.org/download/oracle_vbox.asc
+
+- name: install build tools
+  yum:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - binutils
+    - kernel-devel
+    - kernel-headers
+    - libgomp
+    - make
+    - patch
+    - gcc
+    - glibc-headers
+    - glibc-devel
+
+- name: install virtualbox
+  yum:
+    name: VirtualBox-6.1
+    state: present
