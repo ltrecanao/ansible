@@ -1,7 +1,7 @@
-VSCode
-======
+Kubernetes
+==========
 
-Este rol se encargará de instalar el editor de código Visual Studio Code.
+Este rol se encargará de instalar el cliente de Kubernetes.
 
 Requerimientos
 --------------
@@ -13,11 +13,11 @@ Ejemplo de Playbook
 
 Para utilizar la función se deben configurar las siguientes variables:
 
-    - name: install vscode
+    - name: install kubernetes
       hosts: all
       become: yes
       roles: 
-         - vscode
+         - kubernetes
 
 Licencia
 --------

@@ -1,5 +1,5 @@
 VSCode
-==========
+======
 
 Este rol se encargará de instalar el editor de código Visual Studio Code.
 

@@ -4,7 +4,7 @@
     url: https://download.virtualbox.org/virtualbox/rpm/el/virtualbox.repo
     dest: /etc/yum.repos.d/virtualbox.repo
 
-- name: import oracle public key
+- name: import public key
   rpm_key:
     state: present
     key: https://www.virtualbox.org/download/oracle_vbox.asc

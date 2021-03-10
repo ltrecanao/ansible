@@ -1,0 +1,10 @@
+---
+- name: add repo
+  copy:
+    src: kubernetes.repo
+    dest: /etc/yum.repos.d/
+
+- name: install kubectl
+  yum:
+    name: kubectl
+    state: present

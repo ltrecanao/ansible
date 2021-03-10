@@ -1,5 +1,5 @@
 ---
-- name: download virtualbox
+- name: install virtualbox
   yum:
     name: VirtualBox
     state: present
