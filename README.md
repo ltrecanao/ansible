@@ -10,7 +10,7 @@ Para instalar Ansible requerimos tener el gestor de paquetes **pip** de **Python
 Para verificar su correcta instalación se puede correr el siguiente comando, y así obtener la versión instalada.  
 `ansible -v`
 
-## Configurar Hosts
+## Configurar los hosts
 Ansible requiere que editemos el archivo de configuración **/etc/ansible/hosts**, añadiendo las direcciones IP o nombres de los equipos con los que se conectará nuestro host vía SSH. En el archivo hay ejemplos de como debe configurarse, para editar el archivo es necesario utilizar privilegios tal como se muestra en la siguiente linea.  
 `sudo vi /etc/ansible/hosts`
 
