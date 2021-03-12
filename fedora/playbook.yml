@@ -1,0 +1,11 @@
+---
+- name: install roles
+  hosts: all
+  become: yes
+  roles:
+    - brave
+    - docker
+    - kubernetes
+    - vagrant
+    - virtualbox
+    - vscode
