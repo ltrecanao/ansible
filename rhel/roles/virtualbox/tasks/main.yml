@@ -14,6 +14,7 @@
     name: "{{ item }}"
     state: present
   loop:
+    - dkms
     - binutils
     - kernel-devel
     - kernel-headers
